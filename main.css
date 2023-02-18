@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+header, section, footer, aside, nav, article, hgroup{
+    display: block;
+}
+body{
+    text-align: center;
+}
+.big_wrapper{
+    border: 1px solid black;
+    width: 100%;
+    margin: 20px auto;
+    text-align: left;
+}
+.top_header{
+    background-image: url(header-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid blue;
+    padding: 20px;
+}
+
+.top_header>h1>a{
+    font-size: x-large;
+    color:cadetblue;
+    text-shadow: -3px -3px 20px lightblue;
+    text-decoration: none;
+}
+.top_header>h1>a:hover{
+    color: white;
+}
+.me{
+    font-style: oblique;
+    font-variant: small-caps;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.top_menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    padding-right: auto;
+}
+.top_menu li>a{
+    float: left;
+    color: white;
+    display:block;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+.top_menu li>a:hover{
+    background-color: #111111;
+}
